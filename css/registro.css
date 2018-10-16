@@ -128,7 +128,7 @@ body{
 
 @media screen and (max-width: 768px){
 	.btn{
-		font-size: 15px;
+		font-size: 20px;
 		padding-right: 20px;
 		padding-left: 20px;
 	}
@@ -146,6 +146,7 @@ body{
 	}
 	.inputs{
 		width: 100%;
+		font-size: 20px;
 	}
 	.date{
 		width: 100%;
@@ -154,9 +155,9 @@ body{
 		width: 100%;
 	}
 	.btn2{
-		font-size: 15px;
-		padding-left: 20px;
-		padding-right: 20px;
+		font-size: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
 		width: 80%;
 	}
 }
