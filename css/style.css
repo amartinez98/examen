@@ -1,0 +1,390 @@
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+.main-header {
+	display: flex;
+}
+.main-menu {
+	position: absolute;
+	text-align: center;
+	display: flex;
+	right: 50px;
+}
+.main-menu ul{
+	list-style: none;
+}
+.main-menu ul li {
+	display: inline-block;
+	margin: 5px 10px;
+}
+.main-menu ul li a {
+	color: white;
+	font-weight: 700;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	text-decoration: none;
+	transition: all 0.2s ease-in;
+}
+.main-menu ul li a:hover {
+	color: #8cff00;
+	border-bottom: 2px solid #8DABC2;
+}
+.slider{
+	max-width: 100%;
+}
+.slider img {
+	max-width: 100%;
+}
+.container {
+	margin: 0 auto;
+	max-width: 1170px;
+	overflow: hidden;
+}
+.oferta-academica .container {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+.title-section {
+	font-size: 30px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.title-oferta-academica {
+	color: #32618D;
+}
+.card {
+	border: 1px solid #D6D2D2;
+	border-radius: 5px;	
+	overflow: hidden;
+	max-width: 100%;
+
+}
+.card-hero {
+	position: relative;
+	max-width: 100%;
+}
+.card-hero img {
+	max-width: 100%;
+}
+.btn-card-show {
+	background-color: #0C6798;
+	color: white;
+	display: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: -10px;
+	margin-left: -50px;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	height: 20px;
+	max-width: 100px;
+	border-radius: 5px;
+}
+.btn-card-show:hover {
+	background-color: #26c984;
+}
+.card-hero:hover .btn-card-show{
+	display: block;
+}
+.card-title {
+	text-align: center;
+}
+.card-title::after {
+	content: '';
+	background-color: #1CA311;
+	display: block;
+	height: 1px;
+	margin: 0 auto;
+	margin-top: 5px;
+	max-width: 70%
+}
+.card-list {
+	color: #999999;
+	list-style: none;
+	text-align: center;
+	padding-left: 0;
+}
+.card-list li {
+	padding-bottom: 5px;
+}
+.hola{
+	position: absolute;
+	left: 50px;
+	top:40px;
+	color: white;
+}
+.button{
+	position: absolute;
+	top:295px;
+	left: 520px;
+}
+.btn{
+	background-color: #0C6798;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 100px;
+    border: none;
+    font-family: 'Roboto', cursive;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.btn:hover{
+	background-color: #26c984;
+}
+.btn a{
+	text-decoration: none;
+	color: white;
+}
+.icon{
+	position: absolute;
+	color: white;
+	top: 20px;
+	left: 65px;
+	font-size: 60px;	
+}
+.text{
+	position: absolute;
+	bottom: 50px;
+	left: 260px;
+	color: white;
+	font-size: 20px;
+	max-width: 450px;
+}
+.adios{
+	position: relative;
+    bottom: 80px;
+    left: 15px;
+    max-width: 150px;
+    margin: 0 auto;
+}
+.list{
+	 background-image: linear-gradient(#1B3B6E, #64E6CC);
+	 color: white;
+	 text-align: center;
+	 padding-top: 90px;
+	 padding-bottom: 90px;
+	 margin-top: 100px;
+	 font-family: 'Lato', cursive;
+}
+.cont{
+	margin:0 auto;
+	max-width: 80%;
+	text-align: left;
+}
+.footer {
+	background-color: #32618D;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 1200px){
+	.button{
+		position: absolute;
+	    top: 495px;
+	    left: 20px;
+	}
+	.main-manu ul{
+		top: 20px;
+	}
+	.main-menu ul li{
+		display: inline-block;
+	}
+	.slider{
+		width: 100%;
+	}
+	.icon{
+		left: 20px;
+	}
+	.slider img{
+		width: 100%;
+	}
+	.text{
+		position: absolute;
+	    bottom: 100px;
+	    width: 50%;
+	    font-size: 15px;
+	    left: 380px;
+	}
+	.text h1{
+		margin: 0;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+
+	.main-header{
+		display: flex;
+		flex-direction: column;
+	}
+	.main-menu{
+		
+	}
+	.button{
+		position: absolute;
+	    top: 305px;
+	    left: 80px;
+	    width: 15%;
+	    text-align: center;
+	    border-radius: 20px;
+	}
+	.btn{
+		width: 100%;
+		font-size: 15px;
+		padding: 5px;
+	}
+	.main-manu ul{
+		top: 20px;
+	}
+	.main-menu ul li{
+		display: inline-block;
+		
+	}
+	.slider{
+		width: 100%;
+	}
+	.icon{
+		left: 20px;
+		font-size: 40px;
+	}
+	.slider img{
+		width: 100%;
+	}
+	.oferta-academica .container{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		padding: 0 15px;
+	}
+	.card{
+		width: 35%;
+		box-sizing: border-box;
+		margin-bottom: 20px;
+	}
+	.text{
+		position: absolute;
+	    bottom: 305px;
+	    width: 50%;
+	    font-size: 15px;
+	    left: 330px;
+	}
+	.text h1{
+		margin: 0;
+	}
+	.hola{
+		left: 20px;
+    	top: 20px;
+    	font-size: 19px;
+	}
+	.card-hero{
+		width: 100%;
+	}
+	.list{
+		padding-bottom: 50px;
+		padding-top: 50px;
+	}
+	.oferta-academica.container{
+		display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-around;
+	    padding: 0px 0px;
+	}
+}
+
+@media screen and (max-width: 480px){
+	body{
+		
+	}
+	.icon{
+		font-size: 30px;
+	}
+	.button{
+		position: absolute;
+	    top: 170px;
+	    left: 20px;
+	    width: 20%;
+	    text-align: center;
+	    border-radius: 20px;
+	}
+	.btn{
+		width: 100%;
+		font-size: 15px;
+		padding: 5px;
+	}
+	.text{
+		position: absolute;
+	    bottom: 440px;
+	    width: 70%;
+	    font-size: 12px;
+	    left: 130px;
+	}
+	.main-menu {
+		position: absolute;
+		display: flex;
+		right: 50px;
+	}
+	.main-menu ul{
+		list-style: none;
+	}
+	.main-menu ul li {
+		display: inline-block;
+		margin: 0px 2px;
+	}
+	.main-menu ul li a {
+		color: #2f3238;
+		font-weight: 700;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-bottom: 5px;
+		text-decoration: none;
+		transition: all 0.2s ease-in;
+	}
+	.main-menu ul li a:hover {
+		color: #8cff00;
+		border-bottom: 2px solid #26c984;
+	}
+	.hola{
+		font-size: 25px;
+		top: 60px;
+		left: 60px;
+	}
+	.adios{
+		font-size: 25px;
+		bottom: 100px;
+		left: 120px;
+		width: 60%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.oferta-academica .container{
+		padding: 0px;
+		display: block;
+	}
+	.card{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.card img{
+		width: 100%;
+	}
+	.cont{
+		text-align: center;
+		font-size: 14px;
+
+	}
+	.footer{
+		margin-top: 30px;
+	}
+}

@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+	font-family: 'Roboto', cursive;
+}
+.main-header{
+	text-align: center;
+	background-color: #0C6798;
+	font-size: 90px;
+	color: white;
+	padding: 15px;
+}
+.btn{
+	background-color: #3B5998;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 20px;
+}
+.container{
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+	margin-top: 50px;
+}
+.line{
+	width: 50%;
+	display: flex;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.linea{
+	width: 45%;
+}
+.input{
+	width: 90%;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 1px solid #707070;;
+	font-size: 14px;
+	padding: 5px;
+}
+.inputs{
+	display: inline-block;
+	width: 50%;
+}
+.input-date{
+	margin-top: 20px;
+	font-size: 14px;
+	border-radius: 5px;
+	display: inline-block;
+	width: 30%;
+	text-align: justify;
+}
+.date{
+	width: 50%;
+	margin: 0 auto;
+}
+.select{
+	margin: 0 auto;
+	margin-top: 20px;
+	
+	display: inline-block;
+	width: 50%;
+	
+}
+.button{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	display: block;
+}
+.btn2{
+	background-color: #3B5998;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 25px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 20px;
+	width: 90%;
+}
+.link{
+	color:#0C6798;
+	text-decoration: none;
+}
+.last{
+	margin-bottom: 80px;
+}
